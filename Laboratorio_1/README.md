@@ -9,7 +9,8 @@ Para el desarrollo del laboratorio se plantean los siguientes objetivos iniciale
  Una vez cumplidos estos objetivos, se desarrollarán dos actividades orientadas a consolidar y aplicar los conocimientos adquiridos. La primera actividad consiste en implementar el control del movimiento de la tortuga del simulador turtlesim a través del teclado. La segunda actividad tiene como finalidad programar el trazado automático de letras personalizadas utilizando dicho simulador.
 
 ## Procedimientos realizados.
-Se 
+
+Se llevó a cabo una investigación preliminar sobre el funcionamiento de los servicios en ROS 2 y su llamado desde scripts en Python. Asimismo, se revisó el código desarrollado durante las sesiones prácticas del laboratorio, con el fin de establecer una base sobre la cual construir las soluciones propuestas. Posteriormente, se exploraron métodos para la lectura de teclas e ingreso de datos desde la terminal, considerando los requisitos de las actividades planteadas. Con esta información, se procedió a implementar el código correspondiente a partir de los diagramas de flujo diseñados, realizando pruebas iterativas para la detección y corrección de errores. 
 
 ## Decisiones de diseño.
 En la primera actividad, se establece un ángulo de 0.18 radianes y una velocidad de 0.3 , considerando que el tiempo de ejecución es breve. Esta configuración permite que el cambio en el movimiento de la tortuga sea perceptible, pero lo suficientemente sutil como para mantener un desplazamiento controlado. De esta manera, se logra una mayor precisión en la trayectoria, facilitando la generación de formas más definidas durante la simulación.
@@ -19,6 +20,33 @@ En la segunda actividad, se opta por limitar el tiempo de ejecución de cada tra
 
 ## Funcionamiento general del proyecto.
 
+
+Para la actividad asociada a controlar la tortuga del simulador turtlesim con las flechas del teclado se palntea el diagrama de flujo a continuación:
+
+```mermaid
+---
+config:
+  theme: redux
+---
+flowchart TD
+    A(["Inicio"]) --> B["Inicializar elementos de ROS2"]
+    B --> C["Crear el nodo"]
+    C --> D["Llamar servicios"]
+    D --> E["Leer tecla de la Terminal"]
+    E --> F{"¿La tecla presionada es la flecha hacia arriba?"}
+    F -- Si --> G["Mover hacia adelante"]
+    F -- No --> H{"¿La tecla presionada es la flecha hacia abajo?"}
+    H -- Si --> I["Mover hacia atras"]
+    H -- No --> J{"¿La tecla presionada es la flecha izquierda?"}
+    J -- Si --> K["Girar a la izquierda"]
+    J -- No --> L{"¿La tecla presionada es la flecha derecha?"}
+    L -- Si --> M["Girar a la derecha"]
+    M --> E
+    K --> E
+    I --> E
+    G --> E
+
+```
 
 Para la actividad que implica el dibujar letras personalizadas, se plantea el siguiente diagrama de flujo, las letras elegidas son "C,E,G,J,M,O,S,X" correspondientes a las iniciales de los nombres y apellidos de los integrantes del grupo. 
 
@@ -67,34 +95,6 @@ flowchart TD
 
 ```
 
-
-
-Para la actividad asociada a controlar la tortuga del simulador turtlesim con las flechas del teclado se palntea el diagrama de flujo a continuación:
-
-```mermaid
----
-config:
-  theme: redux
----
-flowchart TD
-    A(["Inicio"]) --> B["Inicializar elementos de ROS2"]
-    B --> C["Crear el nodo"]
-    C --> D["Llamar servicios"]
-    D --> E["Leer tecla de la Terminal"]
-    E --> F{"¿La tecla presionada es la flecha hacia arriba?"}
-    F -- Si --> G["Mover hacia adelante"]
-    F -- No --> H{"¿La tecla presionada es la flecha hacia abajo?"}
-    H -- Si --> I["Mover hacia atras"]
-    H -- No --> J{"¿La tecla presionada es la flecha izquierda?"}
-    J -- Si --> K["Girar a la izquierda"]
-    J -- No --> L{"¿La tecla presionada es la flecha derecha?"}
-    L -- Si --> M["Girar a la derecha"]
-    M --> E
-    K --> E
-    I --> E
-    G --> E
-
-```
 
 
 Para la ejecución del código, se debe tener el archivo de Python en la ubicación correspondiente en el proyecto y ejecutar las siguientes lineas de código en la terminal:
