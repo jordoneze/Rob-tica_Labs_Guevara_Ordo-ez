@@ -6,7 +6,8 @@ Para el desarrollo del laboratorio se plantean los siguientes objetivos iniciale
 2. Usar los comandos fundamentales de Linux.
 3. Conectar nodos de ROS 2 con Python.
 
-   Al cumplir estos objetivos zse plantean dos actividades que llevan a profundizar en los aprendizajes ya mencionados. 
+ Una vez cumplidos estos objetivos, se desarrollarán dos actividades orientadas a consolidar y aplicar los conocimientos adquiridos. La primera actividad consiste en implementar el control del movimiento de la tortuga del simulador turtlesim a través del teclado. La segunda actividad tiene como finalidad programar el trazado automático de letras personalizadas utilizando dicho simulador.
+
 ## Procedimientos realizados.
 Se 
 
