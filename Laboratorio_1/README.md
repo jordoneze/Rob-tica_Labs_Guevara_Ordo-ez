@@ -1,7 +1,14 @@
 # Laboratorio No. 01 - 2025-I - Robótica de Desarrollo, Intro a ROS 2 Humble - Turtlesim
 ## Objetivos.
+Para el desarrollo del laboratorio se plantean los siguientes objetivos iniciales:
 
+1. Conocer y explicar los conceptos básicos de ROS (Robot Operating System).
+2. Usar los comandos fundamentales de Linux.
+3. Conectar nodos de ROS 2 con Python.
+
+   Al cumplir estos objetivos zse plantean dos actividades que llevan a profundizar en los aprendizajes ya mencionados. 
 ## Procedimientos realizados.
+Se 
 
 ## Decisiones de diseño.
 
