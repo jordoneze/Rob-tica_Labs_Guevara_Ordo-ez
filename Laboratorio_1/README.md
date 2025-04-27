@@ -10,7 +10,7 @@
 
 
 
-
+```mermaid
 ---
 config:
   theme: redux
@@ -32,3 +32,5 @@ flowchart TD
     K --> E
     I --> E
     G --> E
+
+```
