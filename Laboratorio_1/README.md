@@ -94,6 +94,7 @@ flowchart TD
     D_2 --> E_1
 
 ```
+Los resultados obtenidos son: ![WhatsApp Image 2025-04-27 at 10 35 55 PM](https://github.com/user-attachments/assets/623fcd76-a081-4df0-bccf-f96c7115ce20)
 
 
 
