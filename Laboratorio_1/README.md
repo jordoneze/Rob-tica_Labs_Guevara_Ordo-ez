@@ -94,8 +94,23 @@ flowchart TD
     D_2 --> E_1
 
 ```
-Los resultados obtenidos son: ![WhatsApp Image 2025-04-27 at 10 35 55 PM](https://github.com/user-attachments/assets/623fcd76-a081-4df0-bccf-f96c7115ce20)
+Los resultados obtenidos son: 
 
+![WhatsApp Image 2025-04-27 at 10 35 55 PM](https://github.com/user-attachments/assets/623fcd76-a081-4df0-bccf-f96c7115ce20)
+
+![WhatsApp Image 2025-04-27 at 10 35 55 PM (1)](https://github.com/user-attachments/assets/0f92600b-0441-4491-94fc-a937bb58b20e)
+
+![WhatsApp Image 2025-04-27 at 10 35 55 PM (2)](https://github.com/user-attachments/assets/7cc86b9e-648a-44e4-b8c4-fabe5c7732cf)
+
+![WhatsApp Image 2025-04-27 at 10 35 55 PM (3)](https://github.com/user-attachments/assets/5dc3a38a-8500-42d1-be3e-939c8d166042)
+
+![WhatsApp Image 2025-04-27 at 10 35 55 PM (4)](https://github.com/user-attachments/assets/1b3eb131-9d30-43fd-a8ec-dff042dd6534)
+
+![WhatsApp Image 2025-04-27 at 10 35 56 PM](https://github.com/user-attachments/assets/4f5058a9-8d8f-4aee-9d64-8545966f03e6)
+
+![WhatsApp Image 2025-04-27 at 10 35 56 PM (1)](https://github.com/user-attachments/assets/7a46547f-69b8-4785-b1c0-7b4d0f20782a)
+
+![WhatsApp Image 2025-04-27 at 10 35 56 PM (2)](https://github.com/user-attachments/assets/00d381b3-2a00-4d47-b2f6-0903065c460f)
 
 
 Para la ejecución del código, se debe tener el archivo de Python en la ubicación correspondiente en el proyecto y ejecutar las siguientes lineas de código en la terminal:
