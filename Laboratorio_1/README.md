@@ -1,4 +1,10 @@
 # Laboratorio No. 01 - 2025-I - Robótica de Desarrollo, Intro a ROS 2 Humble - Turtlesim
+## Video
+title: Example product landing page
+product_video: '[https://www.youtube-nocookie.com/embed/URL](https://youtu.be/5mlHX-qmWMc)'
+
+
+
 ## Objetivos.
 Para el desarrollo del laboratorio se plantean los siguientes objetivos iniciales:
 
