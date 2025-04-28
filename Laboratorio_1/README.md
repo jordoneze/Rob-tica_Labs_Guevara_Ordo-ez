@@ -118,15 +118,20 @@ Para la ejecución del código, se debe tener el archivo de Python en la ubicaci
 source /opt/ros/humble/setup.bash
 ros2 run turtlesim turtlesim_node
 ```
-En otra terminal se debe ejecutar: 
+En otra terminal se debe ejecutar, para la actividad 1: 
 ```
 source /opt/ros/humble/setup.bash
 colcon build
 source install/setup.bash
 ros2 run my_turtle_controller move_turtle
 ```
-
-
+Para la actividad 2:
+```
+source /opt/ros/humble/setup.bash
+colcon build
+source install/setup.bash
+ros2 run my_turtle_controller my_scripy2
+```
 
 
 
