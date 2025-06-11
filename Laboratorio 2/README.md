@@ -9,5 +9,8 @@
 ## Plano de Planta
 
 ## Funciones utilizadas
+* MoveJ
+* MoveL
+
 
 ## Video con Simulaciones y Práctica Real
