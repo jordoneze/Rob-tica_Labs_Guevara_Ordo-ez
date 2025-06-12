@@ -1,10 +1,12 @@
 # Laboratorio No. 02 - Robótica Industrial - Trayectorias, Entradas y Salidas Digitales.
+## Descripción de la solución planteada 
+
 
 ## Diseño del porta-herramienta
 
 ![1749647546794](https://github.com/user-attachments/assets/ac25fa75-bf9e-4fcd-a9b7-64cfb0829d0e)
 ![image](https://github.com/user-attachments/assets/bead3722-0dbd-4252-bd8b-7a7b5afd53ac)
-El porta herramienta se diseño con un angulo de 40º para evitar una singularidad. 
+El porta herramienta se diseño con un angulo de 40º para evitar una singularidad. Además se creo considarando las medidas de un marcador borrable EXPO y un resorte encontrado en casa, de una pulgada de longitud con diametro de media pulgada, que tiene el proposito de amortiguar. 
 
 ## Trayectorias
 ![image](https://github.com/user-attachments/assets/a5171156-715e-4516-a474-a220a7d74a7b)
