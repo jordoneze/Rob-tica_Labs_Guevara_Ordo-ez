@@ -12,7 +12,8 @@
 ## Plano de Planta
 ![image](https://github.com/user-attachments/assets/be4a7893-433b-4412-91ec-19f462e90c73)
 
-![image](https://github.com/user-attachments/assets/363298b8-188b-4a7b-bdce-a8d50700af14)
+La caja se encuentra ubicada en X=675 mm; Y=110 mm y Z=195 mm con la base del robot como referencia.
+La altura de la banda corresponde a Z=195 mm y la longitud es de 400 mm.
 
 ## Funciones utilizadas
 * MoveJ
