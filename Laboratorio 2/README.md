@@ -12,6 +12,8 @@
 ## Plano de Planta
 ![image](https://github.com/user-attachments/assets/be4a7893-433b-4412-91ec-19f462e90c73)
 
+![image](https://github.com/user-attachments/assets/363298b8-188b-4a7b-bdce-a8d50700af14)
+
 ## Funciones utilizadas
 * MoveJ
 * MoveL
