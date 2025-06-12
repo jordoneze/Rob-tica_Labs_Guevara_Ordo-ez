@@ -3,6 +3,8 @@
 ## Diseño del porta-herramienta
 
 ![1749647546794](https://github.com/user-attachments/assets/ac25fa75-bf9e-4fcd-a9b7-64cfb0829d0e)
+![image](https://github.com/user-attachments/assets/bead3722-0dbd-4252-bd8b-7a7b5afd53ac)
+El porta herramienta se diseño con un angulo de 40º para evitar una singularidad. 
 
 ## Trayectorias
 ![image](https://github.com/user-attachments/assets/a5171156-715e-4516-a474-a220a7d74a7b)
