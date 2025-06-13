@@ -46,8 +46,12 @@ La caja se encuentra ubicada en X=675 mm; Y=110 mm y Z=195 mm con la base del ro
 La altura de la banda corresponde a Z=195 mm y la longitud es de 400 mm.
 
 ## Funciones utilizadas
-* MoveJ
-* MoveL
-
+* MoveJ:
+  Desplazamiento del extremo del robot hasta el punto indicado sin garantizar la trayectoria seguida.
+  Se utilizo principalmente para llevar el robot desde su ultima posición a la posición de Home.
+  
+* MoveL:
+  Desplazamiento del extremo del robot hasta el punto indicado siguiendo una línea recta.
+  Se utilizo para mover el robot en los puntos pertenecientes a las trayectorias de los nombres y la decoración.
 
 ## Video con Simulaciones y Práctica Real
