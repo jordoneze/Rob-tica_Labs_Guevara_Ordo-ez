@@ -16,13 +16,13 @@ El porta herramienta se diseño con un angulo de 40º para evitar una singularid
 ---
 config:
   theme: redux
+  layout: dagre
 ---
 flowchart TD
     A(["Inicio"]) --> B_1["Se dirige a Home"]
     B_1 --> B{"¿La entrada digital 1 esta encedida?"}
-    B -- Si --> C["Option A"]
     B -- No --> D{"¿La entrada digital 2 esta encedida?"}
-    C --> E["Enciende Salida Digital 1 (Luz)"]
+    B -- Si --> E["Enciende Salida Digital 1 (Luz)"]
     E --> F["Se dirige a Home"]
     F  --> G["Realiza la trayectoria del primer nombre"]
     G  --> H["Realiza la trayectoria de la decoración"]
@@ -32,7 +32,8 @@ flowchart TD
     K --> L["Espera cinco segundos"]
     L --> M["Se apaga la banda transportadora"]
 
-    D --> N["Apaga Salida Digital 1 (Luz)"]
+    D -- No -->B
+    D -- Si --> N["Apaga Salida Digital 1 (Luz)"]
     N --> Ñ["Gira hacia el lateral izquierdo (en posición para cambiar la herramienta)"]
     Ñ-->B
     M-->B
