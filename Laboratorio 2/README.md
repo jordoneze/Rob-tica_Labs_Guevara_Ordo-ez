@@ -70,3 +70,4 @@ La altura de la banda corresponde a Z=195 mm y la longitud es de 400 mm.
   Se utilizo para mover el robot en los puntos pertenecientes a las trayectorias de los nombres y la decoración.
 
 ## Video con Simulaciones y Práctica Real
+https://youtu.be/3Xitj-D1qzA
