@@ -1,6 +1,21 @@
 # Laboratorio No. 02 - Robótica Industrial - Trayectorias, Entradas y Salidas Digitales.
 ## Descripción de la solución planteada 
+Simulaciones RobotStudio
+1. Se importa el soporte de la herramienta junto al marcador como un solo cuerpo
+2. Se define al TCP como la punta del marcador 
+3. Se crea y define un WorkObject
+4. Se realizan los puntos en la superficie del objeto de trabajo
+5. Se crearon las trayectorias con lo spuntos creados
+6. Se realiza la sincronización de la estación con RAPID obteniendo la definición de los puntos y las trayectorias creadas en la estación
+7. Se configuran las velocidades a 100 $\frac{mm}{s}$ y un precisión de 10 $mm$
+8. Se realiza la lógica de programación utilizando dos variables de entrada para controlar el movimiento del robot y a demás se utilizan 2 variables de salida para indicar mediante leds el movimiento del robot. 
 
+Entorno Físico
+1. Calibración de la herramienta: Una vez acoplada la herramienta al flange del robot mediante 4 tornillo M6x30 se realiza la calibración de la herramienta acercando el TCP ( la punta del marcador) a un objeto puntiagudo con diferentes ángulos y configuraciones del robot, se definieron 4 puntos para esta calibración 
+2. Se calibra el objeto de trabajo definiendo 3 puntos en el tablero, acercando el TCP a la posición donde el marcador realizará las trayectorias, se realizaron dos puntos en el eje $'x'$ y uno en el eje $'y'$
+3. Se carga el código RAPID junto a las dos calibraciones realizadas
+4. Se realizan pruebas sin objeto de trabajo, es decir, se quita el tablero con el fin de verificar que las calibraciones son coherentes. Esto se rezliza como medida de seguridad y con el fin de no dañar la pieza de trabajo ya que puede haber un error que no se haya tenido en cuenta en las calibraciones anteriores 
+5. Una vez verificadas y/o configuradas manualmente( considerando el error) se coloca el tablero y se inicia la rutina
 
 ## Diseño del porta-herramienta
 
