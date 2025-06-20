@@ -11,11 +11,11 @@ Cuadro comparativo detallado de las características técnicas del Motoman MH6 y
 | Velocidad | La velocidad cambia según la fuente de alimentación y el eje:  Para el eje 1 y 2 con trifasica son 200°/s, para el eje 3 con trifasica son 260°/s, para el eje 4 y 5 con trifasica son 360°/s y para el eje 6 con trifasica son 450°/s; para el eje 1 y 2 con monofasica son 200°/s, para el 3 con monofasica son 245°/s, para el 4 con monofasica son 348°/s, , para el 5 con monofasica son 360°/s y para el 6 con monofasica son 450°/s| +++ |
 | Resolución | Aproximadamente 0.01° en cada eje | +++ |
 | Aplicaciones típicas | Esta diseñado especificamente para industrias manufactureras que utilizan automatización flexible basada en robots | +++ |
-| Tipos de actuadores | +++ | +++ |
+| Tipos de actuadores | Eléctricos | +++ |
 | Peso del manipulador| 98 kg | +++ |
 | Consumo energético máximo| 0.44 kW | +++ |
 | Interfaz de programación | +++ | +++ |
-| Sensores | +++ | +++ |
+| Sensores | Encoders relativos en las articulaciones y detección de colisiones.| +++ |
 
 ## Home1 y Home2
 Descripción de las configuraciones home1 y home2 del Motoman MH6, indicando la posición de cada articulación. ¿Cuál posición es mejor? Justifique su respuesta.
