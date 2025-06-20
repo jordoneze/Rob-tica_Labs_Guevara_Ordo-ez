@@ -8,8 +8,7 @@ Cuadro comparativo detallado de las características técnicas del Motoman MH6 y
 | Carga Máxima | 6 kg | +++ |
 | Alcance | 0.8 m| +++ |
 | Número de grados de libertad | 6 | +++ |
-| Velocidad | La velocidad cambia según la fuente de alimentación y el eje:  
-                              | +++ |
+| Velocidad | La velocidad cambia según la fuente de alimentación y el eje:  Para el eje 1 y 2 con trifasica son 200°/s, para el eje 3 con trifasica son 260°/s, para el eje 4 y 5 con trifasica son 360°/s y para el eje 6 con trifasica son 450°/s; para el eje 1 y 2 con monofasica son 200°/s, para el 3 con monofasica son 245°/s, para el 4 con monofasica son 348°/s, , para el 5 con monofasica son 360°/s y para el 6 con monofasica son 450°/s| +++ |
 | Resolución | Aproximadamente 0.01° en cada eje | +++ |
 | Aplicaciones típicas | Esta diseñado especificamente para industrias manufactureras que utilizan automatización flexible basada en robots | +++ |
 | Tipos de actuadores | +++ | +++ |
