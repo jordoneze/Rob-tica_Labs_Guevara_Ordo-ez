@@ -1,4 +1,4 @@
-### Laboratorio No. 03 - Robótica Industrial - Análisis y Operación del Manipulador Motoman MH6
+# Laboratorio No. 03 - Robótica Industrial - Análisis y Operación del Manipulador Motoman MH6
 
 - Cuadro comparativo detallado de las caracterısticas tecnicas del Motoman MH6 y el IRB140, incluyendo carga maxima, alcance, numero de grados de libertad, velocidad, aplicaciones tıpicas, etc.
 - Descripcion de las configuraciones home1 y home2 del Motoman MH6, indicando la posicion de cada articulacion, ¿Cual posicion es mejor?, justifique su respuesta.
