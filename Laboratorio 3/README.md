@@ -3,6 +3,11 @@
 ## Cuadro comparativo Motoman MH6 y el IRB140.
 Cuadro comparativo detallado de las características técnicas del Motoman MH6 y el IRB140, incluyendo carga máxima, alcance, número de grados de libertad, velocidad, aplicaciones típicas, etc.
 
+|    | Motoman MH6 | IRB140 |
+| :---:| :---: | :---: |
+| +++ | +++ | +++ |
+| +++ | +++ | +++ |
+
 
 ## Home1 y Home2
 Descripción de las configuraciones home1 y home2 del Motoman MH6, indicando la posición de cada articulación. ¿Cuál posición es mejor? Justifique su respuesta.
