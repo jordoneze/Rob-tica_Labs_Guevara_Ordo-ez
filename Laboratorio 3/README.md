@@ -5,17 +5,18 @@ Cuadro comparativo detallado de las características técnicas del Motoman MH6 y
 
 |    | Motoman MH6 | IRB140 |
 | :---:| :---: | :---: |
-| Carga Máxima | 6 kg | +++ |
-| Alcance | 0.8 m| +++ |
-| Número de grados de libertad | 6 | +++ |
-| Velocidad | La velocidad cambia según la fuente de alimentación y el eje:  Para el eje 1 y 2 con trifasica son 200°/s, para el eje 3 con trifasica son 260°/s, para el eje 4 y 5 con trifasica son 360°/s y para el eje 6 con trifasica son 450°/s; para el eje 1 y 2 con monofasica son 200°/s, para el 3 con monofasica son 245°/s, para el 4 con monofasica son 348°/s, , para el 5 con monofasica son 360°/s y para el 6 con monofasica son 450°/s| +++ |
+| Carga Máxima | 6 kg | 6 kg |
+| Alcance | 0.8 m| 1.42 m|
+| Número de grados de libertad | 6 | 8* |
+| Velocidad | La velocidad cambia según la fuente de alimentación y el eje:  Para el eje 1 y 2 con trifasica son 200°/s, para el eje 3 con trifasica son 260°/s, para el eje 4 y 5 con trifasica son 360°/s y para el eje 6 con trifasica son 450°/s; para el eje 1 y 2 con monofasica son 200°/s, para el 3 con monofasica son 245°/s, para el 4 con monofasica son 348°/s, , para el 5 con monofasica son 360°/s y para el 6 con monofasica son 450°/s| La velocidad cambia según la articulación:  Para el eje 1 y 3 son 220°/s, para el eje 2 son 200°/s, para el eje 4 y 5 son 410°/s y para el eje 6 son 610°/s.|
 | Resolución | Aproximadamente 0.01° en cada eje | +++ |
-| Aplicaciones típicas | Esta diseñado especificamente para industrias manufactureras que utilizan automatización flexible basada en robots | +++ |
+| Aplicaciones típicas | Esta diseñado especificamente para industrias manufactureras que utilizan automatización flexible basada en robots. Ensamblado, Dispensado, Manipulación de materiales, TCP remoto. | Robots de soldadura por arco, robots de ensamblaje, robots de dispensación, robots de moldeo por inyección, robots de manejo de maquinaria, robots de manipulación de materiales, robots de embalaje |
 | Tipos de actuadores | Eléctricos | +++ |
-| Peso del manipulador| 98 kg | +++ |
+| Peso del manipulador| 98 kg | 130 kg |
 | Consumo energético máximo| 0.44 kW | +++ |
-| Interfaz de programación | +++ | +++ |
 | Sensores | Encoders relativos en las articulaciones y detección de colisiones.| +++ |
+
+*En especifico el Motoman MH6 que se encuentra en el laboratorio
 
 ## Home1 y Home2
 Descripción de las configuraciones home1 y home2 del Motoman MH6, indicando la posición de cada articulación. ¿Cuál posición es mejor? Justifique su respuesta.
