@@ -1,7 +1,7 @@
 # Laboratorio No. 03 - Robótica Industrial - Análisis y Operación del Manipulador Motoman MH6
 
 ## Cuadro comparativo Motoman MH6 y el IRB140.
-Cuadro comparativo detallado de las características técnicas del Motoman MH6 y el IRB140, incluyendo carga máxima, alcance, número de grados de libertad, velocidad, aplicaciones típicas, etc.
+
 
 |    | IRB140 | Motoman MH6 |
 | :---:| :---: | :---: |
