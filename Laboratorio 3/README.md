@@ -3,17 +3,17 @@
 ## Cuadro comparativo Motoman MH6 y el IRB140.
 Cuadro comparativo detallado de las características técnicas del Motoman MH6 y el IRB140, incluyendo carga máxima, alcance, número de grados de libertad, velocidad, aplicaciones típicas, etc.
 
-|    | Motoman MH6 | IRB140 |
+|    | IRB140 | Motoman MH6 |
 | :---:| :---: | :---: |
 | Carga Máxima | 6 kg | 6 kg |
 | Alcance | 0.8 m| 1.42 m|
 | Número de grados de libertad | 6 | 8* |
 | Velocidad | La velocidad cambia según la fuente de alimentación y el eje:  Para el eje 1 y 2 con trifasica son 200°/s, para el eje 3 con trifasica son 260°/s, para el eje 4 y 5 con trifasica son 360°/s y para el eje 6 con trifasica son 450°/s; para el eje 1 y 2 con monofasica son 200°/s, para el 3 con monofasica son 245°/s, para el 4 con monofasica son 348°/s, , para el 5 con monofasica son 360°/s y para el 6 con monofasica son 450°/s| La velocidad cambia según la articulación:  Para el eje 1 y 3 son 220°/s, para el eje 2 son 200°/s, para el eje 4 y 5 son 410°/s y para el eje 6 son 610°/s.|
-| Resolución | Aproximadamente 0.01° en cada eje | +++ |
+|  | Resolución: Aproximadamente 0.01° en cada eje. Repetibilidad: 0.03 mm  | Repetibilidad: ±0.08 mm |
 | Aplicaciones típicas | Esta diseñado especificamente para industrias manufactureras que utilizan automatización flexible basada en robots. Ensamblado, Dispensado, Manipulación de materiales, TCP remoto. | Robots de soldadura por arco, robots de ensamblaje, robots de dispensación, robots de moldeo por inyección, robots de manejo de maquinaria, robots de manipulación de materiales, robots de embalaje |
-| Tipos de actuadores | Eléctricos | +++ |
+| Tipos de actuadores | AC servomotor + reductor + freno | AC servomotor + reductor + freno |
 | Peso del manipulador| 98 kg | 130 kg |
-| Consumo energético máximo| 0.44 kW | +++ |
+| Consumo energético máximo| 0.44 kW a máxima velocidad [mm/s]  | 1.5 kVA |
 | Sensores | Encoders relativos en las articulaciones y detección de colisiones.| +++ |
 
 *En especifico el Motoman MH6 que se encuentra en el laboratorio
