@@ -14,7 +14,6 @@ Cuadro comparativo detallado de las características técnicas del Motoman MH6 y
 | Tipos de actuadores | AC servomotor + reductor + freno | AC servomotor + reductor + freno |
 | Peso del manipulador| 98 kg | 130 kg |
 | Consumo energético máximo| 0.44 kW a máxima velocidad [mm/s]  | 1.5 kVA |
-| Sensores | Encoders relativos en las articulaciones y detección de colisiones.| +++ |
 
 *En especifico el Motoman MH6 que se encuentra en el laboratorio
 
