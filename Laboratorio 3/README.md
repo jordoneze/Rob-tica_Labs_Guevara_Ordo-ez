@@ -23,7 +23,7 @@
 Para la descripción de las posiciones de Home, se usa la posición de cada articulación, cuyos nombres se asocian a continuación:
 
 ![image](https://github.com/user-attachments/assets/0329f5e2-8fde-478d-abf1-c378bfb5a002)
-## Home1
+### Home1
 También se denomina Work Home Position. 
 
 | Articulación | Posición |
@@ -39,7 +39,7 @@ También se denomina Work Home Position.
 ![WhatsApp Image 2025-06-26 at 9 02 15 PM](https://github.com/user-attachments/assets/0c9fb2bc-7951-4095-b8b0-bdd0a817cb46)
 
 
-## Home2
+### Home2
 
 | Articulación | Posición |
 | :---: | :---: |
