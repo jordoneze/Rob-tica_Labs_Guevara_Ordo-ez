@@ -23,6 +23,9 @@ Para la descripción de las posiciones de Home, se usa la posición de cada arti
 ![image](https://github.com/user-attachments/assets/0329f5e2-8fde-478d-abf1-c378bfb5a002)
 ## Home1
 También se denomina Work Home Position. 
+
+| Articulación | Posición |
+| :---: | :---: |
 | S | 0.0000 |
 | L | 88.6629 |
 | U | -81.0787 |
@@ -35,6 +38,9 @@ También se denomina Work Home Position.
 
 
 ## Home2
+
+| Articulación | Posición |
+| :---: | :---: |
 | S | 0 |
 | L | 0 |
 | U | 0 |
