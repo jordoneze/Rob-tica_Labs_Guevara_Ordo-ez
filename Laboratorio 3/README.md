@@ -72,7 +72,7 @@ Para verificar el sistema de referencia, se observa en la parte superior de la p
 
 ## Niveles de Velocidad
 <!--Explicación completa sobre los niveles de velocidad para movimientos manuales, el proceso para cambiar entre niveles y cómo identificar el nivel establecido en la interfaz del robot.-->
-Una vez el el controlador se encuentra energizado nos dirigimos a tomar el teach pendant, en él existen tres botones donde cada uno tiene configurado un estado que define un rango de velocidades para cada uno, estos estados son : 
+Una vez el controlador se encuentra energizado nos dirigimos a tomar el teach pendant, en él existen tres botones donde cada uno tiene configurado un estado que define un rango de velocidades para cada uno, estos estados son: 
 
 • High speed 
 
@@ -93,11 +93,11 @@ Dentro de cualquiera de estos tres estados podremos movernos en unos rangos de v
 [![niveles-Velocidad.png](https://i.postimg.cc/XYT4SpmD/niveles-Velocidad.png)](https://postimg.cc/pmYgKX2D)
 
 
-## Funcionalidades de RoboDK
+# RoboDK: Funcionalidades y Comunicación con Manipuladores Motoman
 <!--Descripción de las principales funcionalidades de RoboDK, explicando cómo se comunica con el manipulador Motoman y qué procesos realiza para ejecutar movimientos.
 Explicar las aplicaciones principales de RoboDK y cómo se comunica con el manipulador, ¿Qué hace RoboDK
 para mover el manipulador-->
-# RoboDK: Funcionalidades y Comunicación con Manipuladores Motoman
+
 
 ## Descripción General de RoboDK
 
@@ -249,9 +249,7 @@ Una vez transferido el programa:
 
 
 
-## RoboDK y RobotStudio
 
-Análisis comparativo entre RoboDK y RobotStudio, destacando ventajas, limitaciones y aplicaciones de cada herramienta.
 # Análisis Comparativo: RoboDK vs RobotStudio
 
 ## Introducción
@@ -271,7 +269,7 @@ RoboDK representa la **democratización de la programación robótica**. Es una 
 ### RobotStudio: La Excelencia Especializada
 RobotStudio, desarrollado por ABB, representa la **perfección en la especialización**. Es la herramienta que lleva la simulación de robots ABB a su máxima expresión, ofreciendo un nivel de detalle y funcionalidad que solo es posible cuando el fabricante del software es el mismo que el del hardware.
 
-**Objetivocentral**: "Máxima fidelidad para máximo rendimiento"
+**Objetivo central**: "Máxima fidelidad para máximo rendimiento"
 - Integración perfecta con el ecosistema ABB
 - Simulación de alta fidelidad
 - Herramientas avanzadas para aplicaciones complejas
@@ -311,7 +309,7 @@ RobotStudio, desarrollado por ABB, representa la **perfección en la especializa
 |  Gratuito (versión básica) |  Vendor lock-in |
 |  Simulación 1:1 con robot real |  Interfaz compleja |
 
-## Aplicaciones óptimas para utilizar Robo Studio 
+## Aplicaciones óptimas para utilizar RobotStudio 
 
  •Comisionamiento virtual completo (RAPID + señales)
  
