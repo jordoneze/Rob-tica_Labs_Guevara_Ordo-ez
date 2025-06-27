@@ -334,7 +334,7 @@ RobotStudio, desarrollado por ABB, representa la **perfección en la especializa
 
 •Escalibilidad y adaptación de procesos con multiples Robots
 
-•
+
 
 
 ## Trayectoria Planteada 
