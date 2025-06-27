@@ -330,7 +330,7 @@ RobotStudio, desarrollado por ABB, representa la **perfección en la especializa
 
 • Generación de programas básicos ABB
 
-•Escalibilidad y adaptación de procesos con multiples Robots
+•Escalabilidad y adaptación de procesos con multiples Robots
 
 
 
