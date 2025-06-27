@@ -71,11 +71,16 @@ Para verificar el sistema de referencia, se observa en la parte superior de la p
 
 
 ## Niveles de Velocidad
-Explicación completa sobre los niveles de velocidad para movimientos manuales, el proceso para cambiar entre niveles y cómo identificar el nivel establecido en la interfaz del robot.
-
-Detallar los niveles de velocidad del Motoman para movimientos manuales y su configuración, ¿Cómo se hace
-el cambio entre niveles de velocidad?, ¿C´omo se identifica en la pantalla el nivel de velocidad establecido?
-
+<!--Explicación completa sobre los niveles de velocidad para movimientos manuales, el proceso para cambiar entre niveles y cómo identificar el nivel establecido en la interfaz del robot.-->
+Una vez el el controlador se encuentra energizado nos dirigimos a tomar el teach pendant, en él existen tres botones donde cada uno tiene configurado un estado que define un rango de velocidades para cada uno, estos estados son : 
+• High speed 
+• fast
+• slow
+<!--Detallar los niveles de velocidad del Motoman para movimientos manuales y su configuración, ¿Cómo se hace
+el cambio entre niveles de velocidad?, ¿C´omo se identifica en la pantalla el nivel de velocidad establecido?-->
+Para cambiar entre niveles de velocidad solo basta con girar la llave, que se encuentra en la parte superior izquierda del teach pendant, hasta posicionarla en configuración 'TEACH'. Luego se escoge una de las 3 configuraciones mencionadas anteiormente presionando el botón correspondiente. 
+[![pendant-Llave2.jpg](https://i.postimg.cc/vBk4qZXM/pendant-Llave2.jpg)](https://postimg.cc/jw6qCKGk)
+Dentro de cualquiera de estos tres estados podremos movernos en unos rangos de velocidad que dependen del estado en el cual nos encontremos, claramente, siendo 'HIGH SPEED' el estado  con un rango de velocidades más alto que al 'FAST' y 'SLOW. Estos rangos de velocidad en un mismo estado podemos modificarlos presionando el mismo botón, lo que generará un salto de velocidad pequeño pero muy perceptible, cada estado tiene 3 niveles de velocidad que se controlan de esta manera y que pueden visualizarse en la parte superior de la interfaz con  una letra, que define el estado o modo en el que se encuentra  y 3 barras a su lado indicando con color verde si se encuentra en el nivel 1, 2 o 3.  
 
 ## Funcionalidades de RoboDK
 Descripción de las principales funcionalidades de RoboDK, explicando cómo se comunica con el manipulador Motoman y qué procesos realiza para ejecutar movimientos.
