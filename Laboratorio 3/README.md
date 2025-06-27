@@ -60,6 +60,9 @@ Procedimiento detallado para realizar movimientos manuales, especificando cómo 
 Describir el procedimiento y cuáles teclas se usan para realizar el movimiento manual del manipulador Motoman por articulaciones, cambiar a movimientos cartesianos y realizar movimientos de traslación y rotación
 en los ejes X, Y, Z.
 
+Para poder realizar movimientos manuales, se incia encendiendo:
+En el cofre general, se energizan los brakers correspondientes al robot Motoman, en el cofre totalizador del robot, se energiza el breaker totalizador y se verifica que haya tensión, posteriormente se energiza el controlador DX100 Yaskawa del robot girando la perilla adecuada en sentido horario. Después se quita la parada de emergencia girando el botón de emergencia en sentido horario. Con la llave en el Teach Pendant se pone en modo "teach" y se ubica en el menú del robot "second home position" y se oprimen los botones Servo On Ready, Fast, Freno y FWD, además se mantiene oprimido el boton de hombre muerto.
+
 ## Niveles de Velocidad
 Explicación completa sobre los niveles de velocidad para movimientos manuales, el proceso para cambiar entre niveles y cómo identificar el nivel establecido en la interfaz del robot.
 
