@@ -73,27 +73,269 @@ Para verificar el sistema de referencia, se observa en la parte superior de la p
 ## Niveles de Velocidad
 <!--Explicación completa sobre los niveles de velocidad para movimientos manuales, el proceso para cambiar entre niveles y cómo identificar el nivel establecido en la interfaz del robot.-->
 Una vez el el controlador se encuentra energizado nos dirigimos a tomar el teach pendant, en él existen tres botones donde cada uno tiene configurado un estado que define un rango de velocidades para cada uno, estos estados son : 
+
 • High speed 
+
 • fast
+
 • slow
 <!--Detallar los niveles de velocidad del Motoman para movimientos manuales y su configuración, ¿Cómo se hace
 el cambio entre niveles de velocidad?, ¿C´omo se identifica en la pantalla el nivel de velocidad establecido?-->
 Para cambiar entre niveles de velocidad solo basta con girar la llave, que se encuentra en la parte superior izquierda del teach pendant, hasta posicionarla en configuración 'TEACH'. Luego se escoge una de las 3 configuraciones mencionadas anteiormente presionando el botón correspondiente. 
-[![pendant-Llave2.jpg](https://i.postimg.cc/vBk4qZXM/pendant-Llave2.jpg)](https://postimg.cc/jw6qCKGk)
-Dentro de cualquiera de estos tres estados podremos movernos en unos rangos de velocidad que dependen del estado en el cual nos encontremos, claramente, siendo 'HIGH SPEED' el estado  con un rango de velocidades más alto que al 'FAST' y 'SLOW. Estos rangos de velocidad en un mismo estado podemos modificarlos presionando el mismo botón, lo que generará un salto de velocidad pequeño pero muy perceptible, cada estado tiene 3 niveles de velocidad que se controlan de esta manera y que pueden visualizarse en la parte superior de la interfaz con  una letra, que define el estado o modo en el que se encuentra  y 3 barras a su lado indicando con color verde si se encuentra en el nivel 1, 2 o 3.  
+
+
+[![Blank-2-Grids-Collage.png](https://i.postimg.cc/hPSsSsTH/Blank-2-Grids-Collage.png)](https://postimg.cc/mh5CjQdw)
+
+
+Dentro de cualquiera de estos tres estados podremos movernos en unos rangos de velocidad que dependen del estado en el cual nos encontremos, claramente, siendo 'HIGH SPEED' el estado  con un rango de velocidades más alto que al 'FAST' y 'SLOW. Estos rangos de velocidad en un mismo estado podemos modificarlos presionando el mismo botón, lo que generará un salto de velocidad pequeño pero muy perceptible, cada estado tiene 3 niveles de velocidad que se controlan de esta manera y que pueden visualizarse en la parte superior de la interfaz con  una letra, que define el estado o modo en el que se encuentra  y 3 barras a su lado indicando con color verde  si se encuentra en el nivel 1, 2 o 3. 
+
+
+[![niveles-Velocidad.png](https://i.postimg.cc/XYT4SpmD/niveles-Velocidad.png)](https://postimg.cc/pmYgKX2D)
+
 
 ## Funcionalidades de RoboDK
-Descripción de las principales funcionalidades de RoboDK, explicando cómo se comunica con el manipulador Motoman y qué procesos realiza para ejecutar movimientos.
+<!--Descripción de las principales funcionalidades de RoboDK, explicando cómo se comunica con el manipulador Motoman y qué procesos realiza para ejecutar movimientos.
 Explicar las aplicaciones principales de RoboDK y cómo se comunica con el manipulador, ¿Qué hace RoboDK
-para mover el manipulador
+para mover el manipulador-->
+# RoboDK: Funcionalidades y Comunicación con Manipuladores Motoman
+
+## Descripción General de RoboDK
+
+RoboDK es un software de simulación y programación offline para robots industriales que permite crear, simular y generar programas de robot sin necesidad de interrumpir la producción. Es una plataforma versátil que soporta más de 500 modelos de robots de diferentes fabricantes, incluyendo los manipuladores Motoman de Yaskawa.
+
+## Principales Funcionalidades de RoboDK
+
+### 1. Simulación 3D Avanzada
+- **Entorno virtual realista**: Permite crear estaciones de trabajo completas con modelos 3D precisos del robot, herramientas, piezas y entorno de trabajo
+- **Detección de colisiones**: Identifica automáticamente posibles colisiones entre el robot, herramientas y obstáculos del entorno
+- **Análisis de alcance**: Visualiza el espacio de trabajo del robot y verifica la accesibilidad a todas las posiciones requeridas
+
+### 2. Programación Offline
+- **Independencia de la producción**: Permite programar el robot sin detener las operaciones de producción
+- **Múltiples lenguajes**: Genera código nativo para diferentes controladores de robot
+- **Optimización automática**: Optimiza trayectorias para reducir tiempo de ciclo y desgaste del robot
+
+### 3. Calibración y Medición
+- **Calibración de herramientas**: Determina con precisión la posición y orientación de herramientas (TCP - Tool Center Point)
+- **Calibración de piezas**: Establece sistemas de coordenadas precisos para las piezas de trabajo
+- **Medición automática**: Utiliza sensores para verificar posiciones y dimensiones
+
+## Comunicación con Manipuladores Motoman
+
+### Arquitectura de Comunicación
+
+RoboDK se comunica con los manipuladores Motoman a través de varios métodos y protocolos:
+
+#### 1. Controlador DX200/YRC1000
+- **Ethernet/IP**: Protocolo industrial estándar para comunicación en tiempo real
+- **TCP/IP Socket**: Comunicación directa a través de red Ethernet
+- **Archivos de programa**: Transferencia de programas generados en formato JBI (Job Binary Instruction)
+
+#### 2. Driver Específico para Motoman
+RoboDK incluye un driver especializado que:
+- Traduce comandos de RoboDK al lenguaje nativo INFORM del controlador Motoman
+- Gestiona la comunicación bidireccional entre el software y el controlador
+- Maneja estados del robot (posición actual, alarmas, modo de operación)
+
+### 3. Interfaz de Programación (API)
+- **Python API**: Permite integración personalizada y automatización avanzada
+- **C# y LabVIEW**: Soporte para diferentes entornos de desarrollo
+- **ROS Integration**: Compatibilidad con Robot Operating System
+
+## Procesos para Ejecutar Movimientos
+
+### 1. Planificación de Trayectorias
+RoboDK realiza los siguientes pasos para planificar movimientos:
+
+**Análisis Cinemático**:
+- Calcula la cinemática inversa para determinar ángulos de articulaciones
+- Verifica límites de movimiento de cada eje
+- Optimiza configuraciones del robot (elbow up/down, wrist flip)
+
+**Generación de Trayectorias**:
+- Interpola puntos intermedios entre posiciones objetivo
+- Aplica perfiles de velocidad y aceleración suavizados
+- Considera limitaciones dinámicas del robot
+
+### 2. Traducción de Comandos
+El proceso de traducción incluye:
+
+**De RoboDK a INFORM**:
+- Convierte coordenadas cartesianas a coordenadas de articulaciones
+- Traduce comandos de movimiento (MoveJ, MoveL, MoveC) al formato JBI
+- Incorpora parámetros de velocidad, precisión y configuración
+
+**Ejemplo de traducción**:
+```
+RoboDK: MoveL(Target_1, 100 mm/s)
+INFORM: MOVL VJ=5.00 PL=0
+```
+
+### 3. Ejecución en el Controlador
+Una vez transferido el programa:
+- El controlador Motoman ejecuta las instrucciones INFORM
+- Controla servo-motores de cada articulación
+- Monitorea sensores de posición y fuerza
+- Reporta estado de ejecución a RoboDK
+
+## Aplicaciones Principales de RoboDK
+
+### 1. Soldadura por Arco y Punto
+- **Programación de cordones de soldadura**: Define trayectorias precisas para soldadura
+- **Control de parámetros**: Gestiona velocidad de soldadura, corriente y voltaje
+- **Simulación realista**: Visualiza el proceso de soldadura con efectos visuales
+
+### 2. Mecanizado y Fresado
+- **Importación de CAM**: Integra trayectorias de herramientas desde software CAM
+- **Optimización de orientación**: Calcula orientaciones óptimas de herramientas
+- **Control de velocidad de husillo**: Sincroniza movimiento del robot con herramientas rotativas
+
+### 3. Paletizado y Manipulación
+- **Generación automática de patrones**: Crea secuencias de paletizado automáticamente
+- **Optimización de trayectorias**: Minimiza tiempo de ciclo en operaciones repetitivas
+- **Control de herramientas**: Gestiona pinzas, ventosas y herramientas de sujeción
+
+### 4. Inspección y Medición
+- **Programación de rutinas de inspección**: Define secuencias de medición automatizadas
+- **Integración de sensores**: Incorpora cámaras, láser y sensores táctiles
+- **Análisis de resultados**: Procesa datos de medición y genera reportes
+
+## Proceso Detallado: Cómo RoboDK Mueve el Manipulador
+
+### Paso 1: Definición del Objetivo
+1. **Especificación del target**: El usuario define posición y orientación objetivo
+2. **Selección de herramienta**: Se especifica qué herramienta utilizar (TCP)
+3. **Configuración de parámetros**: Velocidad, aceleración, precisión
+
+### Paso 2: Cálculo Cinemático
+1. **Cinemática inversa**: RoboDK calcula ángulos necesarios para cada articulación
+2. **Verificación de límites**: Comprueba que todos los ángulos estén dentro de rangos permitidos
+3. **Selección de configuración**: Elige la configuración óptima del robot
+
+### Paso 3: Planificación de Movimiento
+1. **Interpolación**: Genera puntos intermedios en la trayectoria
+2. **Perfiles de velocidad**: Aplica aceleración y desaceleración suaves
+3. **Verificación de colisiones**: Comprueba toda la trayectoria
+
+### Paso 4: Generación de Código
+1. **Traducción a INFORM**: Convierte comandos a lenguaje nativo Motoman
+2. **Optimización**: Ajusta parámetros para eficiencia
+3. **Formateo JBI**: Genera archivo ejecutable por el controlador
+
+### Paso 5: Transferencia y Ejecución
+1. **Transferencia de archivo**: Envía programa JBI al controlador via Ethernet
+2. **Carga en memoria**: El controlador carga el programa
+3. **Ejecución controlada**: El controlador ejecuta movimientos siguiendo las instrucciones
+4. **Retroalimentación**: RoboDK recibe información de estado en tiempo real
+
+## Ventajas de la Integración RoboDK-Motoman
+
+### 1. Eficiencia Operacional
+- Reducción significativa del tiempo de programación
+- Eliminación de paradas de producción para programación
+- Optimización automática de trayectorias
+
+### 2. Precisión y Confiabilidad
+- Simulación exacta antes de la ejecución real
+- Detección preventiva de errores y colisiones
+- Calibración precisa de herramientas y piezas
+
+### 3. Flexibilidad y Escalabilidad
+- Fácil reprogramación para nuevas aplicaciones
+- Soporte para múltiples robots simultáneamente
+- Integración con sistemas de manufactura existentes
+
+
+
+
 
 ## RoboDK y RobotStudio
 
 Análisis comparativo entre RoboDK y RobotStudio, destacando ventajas, limitaciones y aplicaciones de cada herramienta.
+# Análisis Comparativo: RoboDK vs RobotStudio
 
-¿Cómo se comunica RoboDK con el manipulador?
-Analizar las diferencias entre RoboDK y RobotStudio y describir los usos específicos de cada herramienta,
-¿Qué significa para usted cada una de esas herramientas?
+## Introducción
+
+RoboDK y RobotStudio son dos de las herramientas de simulación y programación offline más importantes en el ámbito de la robótica industrial. Aunque ambas comparten el objetivo común de facilitar la programación y simulación de robots, representan filosofías y enfoques diferentes que las hacen más adecuadas para distintos tipos de aplicaciones y usuarios.
+
+## ¿Qué Significa Cada Herramienta?
+
+### RoboDK: La Plataforma Universal
+RoboDK representa la **democratización de la programación robótica**. Es una herramienta que rompe las barreras entre diferentes marcas de robots, ofreciendo una plataforma unificada donde la programación se vuelve independiente del fabricante. Para mí, RoboDK simboliza la **flexibilidad y accesibilidad** en la automatización industrial.
+
+**Objetivo central**: "Un software, múltiples robots"
+- Enfoque multi-fabricante desde su concepción
+- Simplicidad en la interfaz de usuario
+- Democratización del acceso a la simulación robótica
+
+### RobotStudio: La Excelencia Especializada
+RobotStudio, desarrollado por ABB, representa la **perfección en la especialización**. Es la herramienta que lleva la simulación de robots ABB a su máxima expresión, ofreciendo un nivel de detalle y funcionalidad que solo es posible cuando el fabricante del software es el mismo que el del hardware.
+
+**Objetivocentral**: "Máxima fidelidad para máximo rendimiento"
+- Integración perfecta con el ecosistema ABB
+- Simulación de alta fidelidad
+- Herramientas avanzadas para aplicaciones complejas
+# Análisis Comparativo: RoboDK vs RobotStudio
+
+
+## Tabla Comparativa - Aspectos Más Relevantes
+
+| Criterio | RoboDK | RobotStudio |
+|----------|---------|-------------|
+| **Compatibilidad** | 500+ robots (50+ marcas) | Solo robots ABB |
+| **Costo** | Licencia comercial  | Gratuito (versión básica) |
+| **Curva de aprendizaje** | Moderada (2-4 semanas) | Alta (1-3 meses) |
+| **Precisión simulación** | ±0.1mm | ±0.05mm |
+| **Programación** | Python, C#, MATLAB, LabVIEW | RAPID (nativo ABB) |
+| **Aplicación principal** | Entornos multi-marca | Especialización ABB |
+| **Velocidad simulación** | Rápida | Muy rápida |
+| **Integración** | Multi-protocolo | Ecosistema ABB completo |
+| **ROI típico** | 6-12 meses | 3-8 meses (con ABB) |
+| **Soporte** | Comercial estándar | ABB mundial |
+
+## Ventajas y Limitaciones
+
+### RoboDK
+| Ventajas | Limitaciones |
+|----------|-------------|
+|  Universalidad multi-marca |  Menor especialización por robot |
+|  Interfaz intuitiva |  Costo por licencia de robot |
+|  APIs múltiples (Python, C#, etc.) |  Funciones específicas limitadas |
+|  Flexibilidad de integración |  Optimización genérica |
+
+### RobotStudio 
+| Ventajas | Limitaciones |
+|----------|-------------|
+|  Máxima precisión (±0.05mm) |  Solo robots ABB |
+|  Integración nativa ABB |  Curva de aprendizaje alta |
+|  Gratuito (versión básica) |  Vendor lock-in |
+|  Simulación 1:1 con robot real |  Interfaz compleja |
+
+## Aplicaciones óptimas para utilizar Robo Studio 
+
+ •Comisionamiento virtual completo (RAPID + señales)
+ 
+• Simulación exacta de tiempos y comportamiento real
+
+ •Sincronización de robots ABB
+ 
+ •Testeo de seguridad y Smart Components
+ 
+• Proyectos de automatización compleja
+
+•Entrenamiento profesional en ABB
+
+## Aplicaciones óptimas para utilizar RoboDK
+• Fresado/mecanizado (Programación CAM avanzada)
+
+• Simulación de trayectorias sencillas (pintura, soldadura, pick & place)
+
+• Generación de programas básicos ABB
+
+•Escalibilidad y adaptación de procesos con multiples Robots
+
+•
+
 
 ## Trayectoria Planteada 
 ![image](https://github.com/user-attachments/assets/6214e048-4f28-4e0f-b923-85be6c8b2a8c)
