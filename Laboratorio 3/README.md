@@ -20,7 +20,7 @@
 ## Home1 y Home2
 
 
-Para la descripción de las posiciones de Home, se usa la posición de cada articulación, cuyos nombres se aasocian a continuación:
+Para la descripción de las posiciones de Home, se usa la posición de cada articulación, cuyos nombres se asocian a continuación:
 
 ![image](https://github.com/user-attachments/assets/0329f5e2-8fde-478d-abf1-c378bfb5a002)
 ## Home1
@@ -53,7 +53,7 @@ También se denomina Work Home Position.
 ![WhatsApp Image 2025-06-26 at 9 12 46 PM (1)](https://github.com/user-attachments/assets/643e8336-69ec-4517-ab4a-8f36d109d0a1)
 ![WhatsApp Image 2025-06-26 at 9 02 16 PM](https://github.com/user-attachments/assets/cbb04964-cbcc-4766-988a-2f30364131a6)
 
-Home1 es la posición que se suele usar como referencia para el planteamiento de las trayectorias, por loe que es mejor para estas ocasiones, porotra parte Home2 es una posición más compacta, que ocupa menor volumen y es usado para mayor seguridad en el arranque o encendido. 
+Home1 es la posición que se suele usar como referencia para el planteamiento de las trayectorias, por lo que es mejor para estas ocasiones y para referencia en mantenimiento, por otra parte Home2 es una posición más compacta, que ocupa menor volumen y es usado para mayor seguridad en el arranque o encendido. 
 
 ## Movimientos Manuales
 Procedimiento detallado para realizar movimientos manuales, especificando cómo cambiar entre modos de operación (articulaciones, cartesiano) y realizar traslaciones y rotaciones en los ejes X, Y, Z.
