@@ -18,7 +18,33 @@
 *En especifico el Motoman MH6 que se encuentra en el laboratorio
 
 ## Home1 y Home2
-Descripción de las configuraciones home1 y home2 del Motoman MH6, indicando la posición de cada articulación. ¿Cuál posición es mejor? Justifique su respuesta.
+Descripción de las configuraciones home1 y home2 del Motoman MH6, indicando la posición de cada articulación. ¿Cuál posición es mejor? Justifique su respuesta. 
+Para la descripción de las posiciones de Home, se usa la posición de cada articulación, cuyos nombres se aasocian a continuación:
+![image](https://github.com/user-attachments/assets/0329f5e2-8fde-478d-abf1-c378bfb5a002)
+## Home1
+También se denomina Work Home Position. 
+| S | 0.0000 |
+| L | 88.6629 |
+| U | -81.0787 |
+| R | -0.0017 |
+| B | 51.7618 |
+| T | -3.2709 |
+
+![WhatsApp Image 2025-06-26 at 9 12 46 PM](https://github.com/user-attachments/assets/c564c2b9-10ad-4d64-8391-44811647a643)
+![WhatsApp Image 2025-06-26 at 9 02 15 PM](https://github.com/user-attachments/assets/0c9fb2bc-7951-4095-b8b0-bdd0a817cb46)
+
+
+## Home2
+| S | 0 |
+| L | 0 |
+| U | 0 |
+| R | 0 |
+| B | 0 |
+| T | 0 |
+
+![WhatsApp Image 2025-06-26 at 9 12 46 PM (1)](https://github.com/user-attachments/assets/643e8336-69ec-4517-ab4a-8f36d109d0a1)
+![WhatsApp Image 2025-06-26 at 9 02 16 PM](https://github.com/user-attachments/assets/cbb04964-cbcc-4766-988a-2f30364131a6)
+
 
 ## Movimientos Manuales
 Procedimiento detallado para realizar movimientos manuales, especificando cómo cambiar entre modos de operación (articulaciones, cartesiano) y realizar traslaciones y rotaciones en los ejes X, Y, Z.
