@@ -62,6 +62,16 @@ en los ejes X, Y, Z.
 
 Para poder realizar movimientos manuales, se incia encendiendo:
 En el cofre general, se energizan los brakers correspondientes al robot Motoman, en el cofre totalizador del robot, se energiza el breaker totalizador y se verifica que haya tensión, posteriormente se energiza el controlador DX100 Yaskawa del robot girando la perilla adecuada en sentido horario. Después se quita la parada de emergencia girando el botón de emergencia en sentido horario. Con la llave en el Teach Pendant se pone en modo "teach" y se ubica en el menú del robot "second home position" y se oprimen los botones Servo On Ready, Fast, Freno y FWD, además se mantiene oprimido el boton de hombre muerto.
+Para realizar movimientos articulares se necesita tener "Servo On" encendido, mantener el botón de hombre muerto oprimido y oprimir los botones según el movimiento que se desee en las articulaciones. Con el botón "COORD" se puede cambiar de sistema de referencia, asimismo se puede cambiar el tipo de movimiento entre articular y lineal, verificando para el movimiento que los servomotores esten activos y el botón de hombre muerto oprimido.  
+
+Los botones para el movimiento son: 
+
+![image](https://github.com/user-attachments/assets/cc82e10f-9118-49a8-940d-d69564b66e5e)
+
+A la izquierda se encuentran los de movimiento lineal en los ejes del sistema de trabajo, a la derecha los giros en los ejes. También los botones de la izquierda y derecha funcionan para el movimiento de las articulaciones según las letras asignadas a cada una de las articulaciones, como se mostro anteriormente.
+Para verificar el sistema de referencia, se observa en la parte superior de la pantalla.
+![WhatsApp Image 2025-06-26 at 9 12 46 PM (2)](https://github.com/user-attachments/assets/ecfa9917-6a92-46d9-9da4-6a3420869632)
+
 
 ## Niveles de Velocidad
 Explicación completa sobre los niveles de velocidad para movimientos manuales, el proceso para cambiar entre niveles y cómo identificar el nivel establecido en la interfaz del robot.
