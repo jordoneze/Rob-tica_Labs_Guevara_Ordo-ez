@@ -200,19 +200,13 @@ Una vez transferido el programa:
 ## Ventajas de la Integración RoboDK-Motoman
 
 ### 1. Eficiencia Operacional
-- Reducción significativa del tiempo de programación
-- Eliminación de paradas de producción para programación
-- Optimización automática de trayectorias
+Ya que permite hacer cambios rápidos y seguros en los procesos sin detener la producción, gracias a su capacidad de probar virtualmente cada modificación. En conjunto, esto reduce costos de programación, mejora la precisión operativa y permite una mayor flexibilidad en la línea de producción.s
 
-### 2. Precisión y Confiabilidad
-- Simulación exacta antes de la ejecución real
-- Detección preventiva de errores y colisiones
-- Calibración precisa de herramientas y piezas
+### 2. Precisión 
+Si bien puede no igualar la precisión milimétrica que ofrecen plataformas desarrolladas exclusivamente para marcas específicas, como es el caso de RoboStudio para ABB, RoboDK mantiene un balance eficiente entre precisión suficiente para la mayoría de procesos industriales y facilidad de uso. Además, al generar programas nativos en formato JBI para el controlador Yaskawa, asegura que las trayectorias planificadas se ejecuten con un margen de error mínimo
 
 ### 3. Flexibilidad y Escalabilidad
-- Fácil reprogramación para nuevas aplicaciones
-- Soporte para múltiples robots simultáneamente
-- Integración con sistemas de manufactura existentes
+RoboDK ofrece una alta flexibilidad y escalabilidad al trabajar con un robot Motoman MH6 porque no está limitado a un solo fabricante ni a un entorno cerrado, lo que permite adaptar rápidamente el sistema a distintos procesos, configuraciones o cambios en la línea de producción.
 
 
 
