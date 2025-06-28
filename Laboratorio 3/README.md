@@ -99,7 +99,7 @@ Explicar las aplicaciones principales de RoboDK y cómo se comunica con el manip
 para mover el manipulador-->
 
 
-## Descripción General de RoboDK
+## RoboDK
 
 RoboDK es un software de simulación y programación offline para robots industriales que permite crear, simular y generar programas de robot sin necesidad de interrumpir la producción. Es una plataforma versátil que soporta más de 500 modelos de robots de diferentes fabricantes, incluyendo los manipuladores Motoman de Yaskawa.
 
@@ -126,7 +126,7 @@ RoboDK es un software de simulación y programación offline para robots industr
 
 RoboDK se comunica con los manipuladores Motoman a través de varios métodos y protocolos:
 
-#### 1. Controlador DX200/YRC1000
+#### 1. Controlador DX100/YRC1000
 - **Ethernet/IP**: Protocolo industrial estándar para comunicación en tiempo real
 - **TCP/IP Socket**: Comunicación directa a través de red Ethernet
 - **Archivos de programa**: Transferencia de programas generados en formato JBI (Job Binary Instruction)
@@ -165,11 +165,7 @@ El proceso de traducción incluye:
 - Traduce comandos de movimiento (MoveJ, MoveL, MoveC) al formato JBI
 - Incorpora parámetros de velocidad, precisión y configuración
 
-**Ejemplo de traducción**:
-```
-RoboDK: MoveL(Target_1, 100 mm/s)
-INFORM: MOVL VJ=5.00 PL=0
-```
+
 
 ### 3. Ejecución en el Controlador
 Una vez transferido el programa:
@@ -200,7 +196,7 @@ Una vez transferido el programa:
 - **Integración de sensores**: Incorpora cámaras, láser y sensores táctiles
 - **Análisis de resultados**: Procesa datos de medición y genera reportes
 
-## Proceso Detallado: Cómo RoboDK Mueve el Manipulador
+##Cómo RoboDK Mueve el Manipulador
 
 ### Paso 1: Definición del Objetivo
 1. **Especificación del target**: El usuario define posición y orientación objetivo
