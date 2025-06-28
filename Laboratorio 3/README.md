@@ -254,25 +254,24 @@ Una vez transferido el programa:
 
 ## Introducción
 
-RoboDK y RobotStudio son dos de las herramientas de simulación y programación offline más importantes en el ámbito de la robótica industrial. Aunque ambas comparten el objetivo común de facilitar la programación y simulación de robots, representan filosofías y enfoques diferentes que las hacen más adecuadas para distintos tipos de aplicaciones y usuarios.
+RoboDK y RobotStudio son dos de las herramientas de simulación y programación offline más importantes en el ámbito de la robótica industrial. Aunque ambas comparten el objetivo común de facilitar la programación y simulación de robots, representan objetivos y enfoques diferentes que las hacen más adecuadas para distintos tipos de aplicaciones y usuarios.
 
 ## ¿Qué Significa Cada Herramienta?
 
-### RoboDK: La Plataforma Universal
-RoboDK representa la **democratización de la programación robótica**. Es una herramienta que rompe las barreras entre diferentes marcas de robots, ofreciendo una plataforma unificada donde la programación se vuelve independiente del fabricante. Para mí, RoboDK simboliza la **flexibilidad y accesibilidad** en la automatización industrial.
+### RoboDK
+RoboDK representa flexibilidad y escalabilidad  en la automatización industrial.
 
 **Objetivo central**: "Un software, múltiples robots"
 - Enfoque multi-fabricante desde su concepción
 - Simplicidad en la interfaz de usuario
 - Democratización del acceso a la simulación robótica
 
-### RobotStudio: La Excelencia Especializada
-RobotStudio, desarrollado por ABB, representa la **perfección en la especialización**. Es la herramienta que lleva la simulación de robots ABB a su máxima expresión, ofreciendo un nivel de detalle y funcionalidad que solo es posible cuando el fabricante del software es el mismo que el del hardware.
+### RobotStudio
+RobotStudio, desarrollado por ABB . Es la herramienta que lleva la simulación de robots ABB a su máxima rendimiento, ofreciendo un nivel de detalle y funcionalidad que solo es posible cuando el fabricante del software es el mismo que el del hardware.
 
-**Objetivo central**: "Máxima fidelidad para máximo rendimiento"
-- Integración perfecta con el ecosistema ABB
-- Simulación de alta fidelidad
-- Herramientas avanzadas para aplicaciones complejas
+**Objetivo central**: "Máximo rendimiento para tareas concretas"
+- Integración perfecta con el ecosistema ABBd
+- Herramientas avanzadas para aplicaciones complejas, donde el objetivo es 
 # Análisis Comparativo: RoboDK vs RobotStudio
 
 
@@ -286,7 +285,6 @@ RobotStudio, desarrollado por ABB, representa la **perfección en la especializa
 | **Precisión simulación** | ±0.1mm | ±0.05mm |
 | **Programación** | Python, C#, MATLAB, LabVIEW | RAPID (nativo ABB) |
 | **Aplicación principal** | Entornos multi-marca | Especialización ABB |
-| **Velocidad simulación** | Rápida | Muy rápida |
 | **Integración** | Multi-protocolo | Ecosistema ABB completo |
 | **ROI típico** | 6-12 meses | 3-8 meses (con ABB) |
 | **Soporte** | Comercial estándar | ABB mundial |
