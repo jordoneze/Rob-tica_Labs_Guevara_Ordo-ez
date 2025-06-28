@@ -174,28 +174,29 @@ Una vez transferido el programa:
 - Monitorea sensores de posición y fuerza
 - Reporta estado de ejecución a RoboDK
 
-## Aplicaciones Principales de RoboDK
+## Simulación de robots:
+RoboDK permite simular el movimiento de robots industriales en un entorno virtual 3D, lo que ayuda a verificar el alcance, la cinemática y la ausencia de colisiones antes de ejecutar cualquier programa en el mundo real.
 
-### 1. Soldadura por Arco y Punto
-- **Programación de cordones de soldadura**: Define trayectorias precisas para soldadura
-- **Control de parámetros**: Gestiona velocidad de soldadura, corriente y voltaje
-- **Simulación realista**: Visualiza el proceso de soldadura con efectos visuales
+## Generación automática de trayectorias:
+El software puede generar trayectorias de forma automática a partir de modelos CAD o puntos definidos, optimizando los movimientos del robot para tareas como corte, pintura, soldadura o inspección.
 
-### 2. Mecanizado y Fresado
-- **Importación de CAM**: Integra trayectorias de herramientas desde software CAM
-- **Optimización de orientación**: Calcula orientaciones óptimas de herramientas
-- **Control de velocidad de husillo**: Sincroniza movimiento del robot con herramientas rotativas
+## Programación offline :
+Permite crear, editar y depurar programas de robot sin necesidad de estar conectado físicamente a la máquina, lo que reduce el tiempo de parada en la producción.
 
-### 3. Paletizado y Manipulación
-- **Generación automática de patrones**: Crea secuencias de paletizado automáticamente
-- **Optimización de trayectorias**: Minimiza tiempo de ciclo en operaciones repetitivas
-- **Control de herramientas**: Gestiona pinzas, ventosas y herramientas de sujeción
+## Exportación de programas nativos:
+RoboDK genera código específico para el controlador del robot (como archivos .JBI para Yaskawa), asegurando compatibilidad total con el hardware real y evitando errores por traducción de lenguaje.
 
-### 4. Inspección y Medición
-- **Programación de rutinas de inspección**: Define secuencias de medición automatizadas
-- **Integración de sensores**: Incorpora cámaras, láser y sensores táctiles
-- **Análisis de resultados**: Procesa datos de medición y genera reportes
+## Integración con software CAD/CAM:
+Es posible importar  archivos de SolidWorks, Inventor, Fusion 360, Rhino, entre otros, para generar trayectorias basadas en geometría real, facilitando la automatización de procesos basados en diseño.
 
+## Calibración de robots y herramientas:
+RoboDK ofrece módulos para calibrar la base del robot, herramientas (TCP) y sistemas de visión, mejorando la precisión del robot en su entorno de trabajo real.
+
+## Simulación de sensores y periferia:
+Es posible integrar , cintas transportadoras, herramientas, objetos, y otros dispositivos virtuales para simular una sistema de trabajo completo.
+
+## Control en tiempo real del robot:
+ RoboDK permite enviar comandos y mover el robot en tiempo real directamente desde el entorno virtual.
 
 ## Ventajas de la Integración RoboDK-Motoman
 
