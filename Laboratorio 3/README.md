@@ -196,7 +196,7 @@ Una vez transferido el programa:
 - **Integración de sensores**: Incorpora cámaras, láser y sensores táctiles
 - **Análisis de resultados**: Procesa datos de medición y genera reportes
 
-##Cómo RoboDK Mueve el Manipulador
+## Cómo RoboDK Mueve el Manipulador
 
 ### Paso 1: Definición del Objetivo
 1. **Especificación del target**: El usuario define posición y orientación objetivo
@@ -211,7 +211,7 @@ Una vez transferido el programa:
 ### Paso 3: Planificación de Movimiento
 1. **Interpolación**: Genera puntos intermedios en la trayectoria
 2. **Perfiles de velocidad**: Aplica aceleración y desaceleración suaves
-3. **Verificación de colisiones**: Comprueba toda la trayectoria
+3. **Verificación de colisiones y alcance**: Comprueba que  las trayectorias sean posibles y mediante señales de sensores que no hayan obstaculos al pasar por ellas.
 
 ### Paso 4: Generación de Código
 1. **Traducción a INFORM**: Convierte comandos a lenguaje nativo Motoman
