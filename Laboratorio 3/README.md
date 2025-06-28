@@ -150,7 +150,7 @@ RoboDK realiza los siguientes pasos para planificar movimientos:
 **Análisis Cinemático**:
 - Calcula la cinemática inversa para determinar ángulos de articulaciones
 - Verifica límites de movimiento de cada eje
-- Optimiza configuraciones del robot (elbow up/down, wrist flip)
+- Optimiza configuraciones del robot 
 
 **Generación de Trayectorias**:
 - Interpola puntos intermedios entre posiciones objetivo
