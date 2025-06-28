@@ -103,22 +103,6 @@ para mover el manipulador-->
 
 RoboDK es un software de simulación y programación offline para robots industriales que permite crear, simular y generar programas de robot sin necesidad de interrumpir la producción. Es una plataforma versátil que soporta más de 500 modelos de robots de diferentes fabricantes, incluyendo los manipuladores Motoman de Yaskawa.
 
-## Principales Funcionalidades de RoboDK
-
-### 1. Simulación 3D Avanzada
-- **Entorno virtual realista**: Permite crear estaciones de trabajo completas con modelos 3D precisos del robot, herramientas, piezas y entorno de trabajo
-- **Detección de colisiones**: Identifica automáticamente posibles colisiones entre el robot, herramientas y obstáculos del entorno
-- **Análisis de alcance**: Visualiza el espacio de trabajo del robot y verifica la accesibilidad a todas las posiciones requeridas
-
-### 2. Programación Offline
-- **Independencia de la producción**: Permite programar el robot sin detener las operaciones de producción
-- **Múltiples lenguajes**: Genera código nativo para diferentes controladores de robot
-- **Optimización automática**: Optimiza trayectorias para reducir tiempo de ciclo y desgaste del robot
-
-### 3. Calibración y Medición
-- **Calibración de herramientas**: Determina con precisión la posición y orientación de herramientas (TCP - Tool Center Point)
-- **Calibración de piezas**: Establece sistemas de coordenadas precisos para las piezas de trabajo
-- **Medición automática**: Utiliza sensores para verificar posiciones y dimensiones
 
 ## Comunicación con Manipuladores Motoman
 
@@ -174,28 +158,28 @@ Una vez transferido el programa:
 - Monitorea sensores de posición y fuerza
 - Reporta estado de ejecución a RoboDK
 
-## Simulación de robots:
+**Simulación de robots**:
 RoboDK permite simular el movimiento de robots industriales en un entorno virtual 3D, lo que ayuda a verificar el alcance, la cinemática y la ausencia de colisiones antes de ejecutar cualquier programa en el mundo real.
 
-## Generación automática de trayectorias:
+**Generación automática de trayectorias**:
 El software puede generar trayectorias de forma automática a partir de modelos CAD o puntos definidos, optimizando los movimientos del robot para tareas como corte, pintura, soldadura o inspección.
 
-## Programación offline :
+**Programación offline** :
 Permite crear, editar y depurar programas de robot sin necesidad de estar conectado físicamente a la máquina, lo que reduce el tiempo de parada en la producción.
 
-## Exportación de programas nativos:
+**Exportación de programas nativos**:
 RoboDK genera código específico para el controlador del robot (como archivos .JBI para Yaskawa), asegurando compatibilidad total con el hardware real y evitando errores por traducción de lenguaje.
 
-## Integración con software CAD/CAM:
+**Integración con software CAD/CAM**:
 Es posible importar  archivos de SolidWorks, Inventor, Fusion 360, Rhino, entre otros, para generar trayectorias basadas en geometría real, facilitando la automatización de procesos basados en diseño.
 
-## Calibración de robots y herramientas:
+**Calibración de robots y herramientas**:
 RoboDK ofrece módulos para calibrar la base del robot, herramientas (TCP) y sistemas de visión, mejorando la precisión del robot en su entorno de trabajo real.
 
-## Simulación de sensores y periferia:
+**Simulación de sensores y periferia**:
 Es posible integrar , cintas transportadoras, herramientas, objetos, y otros dispositivos virtuales para simular una sistema de trabajo completo.
 
-## Control en tiempo real del robot:
+**Control en tiempo real del robot**:
  RoboDK permite enviar comandos y mover el robot en tiempo real directamente desde el entorno virtual.
 
 ## Ventajas de la Integración RoboDK-Motoman
