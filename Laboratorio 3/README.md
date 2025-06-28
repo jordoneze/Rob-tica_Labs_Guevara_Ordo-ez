@@ -248,28 +248,15 @@ Una vez transferido el programa:
 
 # Análisis Comparativo: RoboDK vs RobotStudio
 
-## Introducción
-
 RoboDK y RobotStudio son dos de las herramientas de simulación y programación offline más importantes en el ámbito de la robótica industrial. Aunque ambas comparten el objetivo común de facilitar la programación y simulación de robots, representan objetivos y enfoques diferentes que las hacen más adecuadas para distintos tipos de aplicaciones y usuarios.
 
-## ¿Qué Significa Cada Herramienta?
+## ¿Qué es cada herramienta?
 
 ### RoboDK
-RoboDK representa flexibilidad y escalabilidad  en la automatización industrial.
-
-**Objetivo central**: "Un software, múltiples robots"
-- Enfoque multi-fabricante desde su concepción
-- Simplicidad en la interfaz de usuario
-- Democratización del acceso a la simulación robótica
+RoboDK representa flexibilidad y escalabilidad  en la automatización industrial. El objetivo central de este software es poder abarcar todo el mercado de robots compormetiendose con las empresas a nivel mundial a brindar un soporte acerca de cualquier proceso industrial que deseen realizar, si sus limitaciones de precisión y modelado lo permiten.  
 
 ### RobotStudio
-RobotStudio, desarrollado por ABB . Es la herramienta que lleva la simulación de robots ABB a su máxima rendimiento, ofreciendo un nivel de detalle y funcionalidad que solo es posible cuando el fabricante del software es el mismo que el del hardware.
-
-**Objetivo central**: "Máximo rendimiento para tareas concretas"
-- Integración perfecta con el ecosistema ABBd
-- Herramientas avanzadas para aplicaciones complejas, donde el objetivo es 
-# Análisis Comparativo: RoboDK vs RobotStudio
-
+RobotStudio, desarrollado por ABB . Es la herramienta que lleva la simulación de robots ABB a su máxima rendimiento, ofreciendo un nivel de detalle y funcionalidad que solo es posible cuando el fabricante del software es el mismo que el del hardware. 
 
 ## Tabla Comparativa - Aspectos Más Relevantes
 
