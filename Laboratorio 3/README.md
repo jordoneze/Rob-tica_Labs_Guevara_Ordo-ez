@@ -275,3 +275,5 @@ RobotStudio, desarrollado por ABB . Es la herramienta que lleva la simulación d
 
 ## Video 
 
+**Link** :https://youtu.be/9D8tAegWrG0
+
