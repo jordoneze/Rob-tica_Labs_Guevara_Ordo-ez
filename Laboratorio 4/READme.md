@@ -9,7 +9,7 @@
 
 Con base en los sistemas coordenados planteados en la imagen anterior, se obtiene la tabla de parámetros del robot Phantom X:
 
-| Link  | &theta_i |
+| Link  | tt _i |
 | ------------- | ------------- |
 | Content Cell  | Content Cell  |
 | Content Cell  | Content Cell  |
