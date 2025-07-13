@@ -5,7 +5,8 @@
 - Manipular los servicios para todos los Joint Controllers del robot Phantom X Pincher.
 - Conectar el robot Phantom X Pincher con Python usando ROS 2.
 ## Cinematica Directa
-![cinematicaPhantomX](https://github.com/user-attachments/assets/8d18f1fb-0b76-4c11-b24f-fd77eaf95202)
+![DH](https://github.com/user-attachments/assets/3f850587-a265-42ad-8ed5-8da054932eba)
+
 
 
 ### Longitudes
