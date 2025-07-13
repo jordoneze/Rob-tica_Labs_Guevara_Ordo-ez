@@ -7,7 +7,12 @@
 ## Cinematica Directa
 ![DH](https://github.com/user-attachments/assets/3f850587-a265-42ad-8ed5-8da054932eba)
 
+Con base en los sistemas coordenados planteados en la imagen anterior, se obtiene la tabla de parámetros del robot Phantom X:
 
+| Link  | &theta_i |
+| ------------- | ------------- |
+| Content Cell  | Content Cell  |
+| Content Cell  | Content Cell  |
 
 ### Longitudes
 
