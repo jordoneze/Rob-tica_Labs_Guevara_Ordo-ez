@@ -21,10 +21,10 @@ Con base en los sistemas coordenados planteados en la imagen anterior, se obtien
 Las longitudes referidas en la cinemática directa son:
 | Longitud  | [m] |
 | ------------- | ------------- |
-| L_1  |   |
-| L_2  |   |
-| L_3  |   |
-| L_4  |   |
+| L<sub>1</sub>  |   |
+| L<sub>2</sub>  |   |
+| L<sub>3</sub>  |   |
+| L<sub>4</sub>  |   |
 
 ### Diagrama del robot con software
 
