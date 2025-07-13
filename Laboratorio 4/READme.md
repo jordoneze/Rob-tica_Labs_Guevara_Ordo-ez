@@ -9,10 +9,12 @@
 
 Con base en los sistemas coordenados planteados en la imagen anterior, se obtiene la tabla de parámetros del robot Phantom X:
 
-| Link  | θ<sub>i</sub> | d<sub>i</sub> | a<sub>i</sub> |  α<sub>1</sub>  |  Offset  |
+| Link  | θ<sub>i</sub> | d<sub>i</sub> | a<sub>i</sub> |  α<sub>i</sub>  |  Offset  |
 | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- |
-|   |   |  |  |  |  |
-|  |   |  |  |  |  |
+| 1  | θ<sub>1</sub>  | L<sub>1</sub> | 0 | -π/2 | 0 |
+|  2|  θ<sub>2</sub> | 0 | L<sub>2</sub> | 0 | -π/2 |
+|  3|  θ<sub>3</sub> | 0 | <sub>3</sub> | 0 | π/2 |
+|  4|  θ<sub>4</sub> | 0 | <sub>4</sub> | 0 | π/2 |
 
 ### Longitudes
 
