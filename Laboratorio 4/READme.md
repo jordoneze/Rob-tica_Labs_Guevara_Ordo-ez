@@ -4,7 +4,7 @@
 - Manipular los tópicos de estado y comando para todos los Joint Controllers del robot Phantom X Pincher.
 - Manipular los servicios para todos los Joint Controllers del robot Phantom X Pincher.
 - Conectar el robot Phantom X Pincher con Python usando ROS 2.
-## Cinematica Directa
+## Cinemática Directa
 ![DH](https://github.com/user-attachments/assets/3f850587-a265-42ad-8ed5-8da054932eba)
 
 Con base en los sistemas coordenados planteados en la imagen anterior, se obtiene la tabla de parámetros del robot Phantom X:
@@ -17,6 +17,14 @@ Con base en los sistemas coordenados planteados en la imagen anterior, se obtien
 |  4|  θ<sub>4</sub> | 0 | <sub>4</sub> | 0 | π/2 |
 
 ### Longitudes
+
+Las longitudes referidas en la cinemática directa son:
+| Longitud  | [m] |
+| ------------- | ------------- |
+| L_1  |   |
+| L_2  |   |
+| L_3  |   |
+| L_4  |   |
 
 ### Diagrama del robot con software
 
