@@ -33,6 +33,32 @@ Las longitudes referidas en la cinemática directa son:
 ### Plano de planta (Fisica)
 ### Funciones utilizadas
 ### Diagrama de Flujo
+```mermaid
+---
+config:
+  theme: 'forest'
+  layout: dagre
+---
+flowchart TD
+
+    L4A(["Inicio"])--> L4B_1["Ir a Home"]
+    L4B_1 --> L4B2{"¿La posición selecionada es la número 1?"}
+    L4B2 -- Si --> L4B3["Ir a posición 1"]
+    L4B2 -- No --> L4B4{"¿La posición selecionada es la número 2?"}
+    L4B4 -- Si --> L4B5["Ir a posición 2"]
+    L4B4 -- No --> L4B6{"¿La posición selecionada es la número 3?"}
+    L4B6 -- Si --> L4B7["Ir a posición 3"]
+    L4B6 -- No --> L4B8{"¿La posición selecionada es la número 4?"}
+    L4B8 -- Si --> L4B9["Ir a posición 4"]
+    L4B8 -- No --> L4B10{"¿La posición selecionada es la número 5?"}
+    L4B10 -- Si --> L4B11["Ir a posición 5"]
+    L4B11 -- No --> L4B2
+    L4B10 -- No --> L4B2
+    L4B9 -- No --> L4B2
+    L4B7 -- No --> L4B2
+    L4B5 -- No --> L4B2 
+    L4B3 -- No --> L4B2
+```
 
 ### Evidencias fotograficas
 
