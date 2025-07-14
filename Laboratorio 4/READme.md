@@ -27,11 +27,23 @@ Las longitudes referidas en la cinemática directa son:
 | L<sub>4</sub>  |   |
 
 ### Diagrama del robot con software
+Haciendo uso del software Matlab se simula la cinemática directa para hallar un modelo del robot.
+<img width="677" height="538" alt="image" src="https://github.com/user-attachments/assets/38e3ea91-bff2-4aed-9e27-0879f55a18a4" />
+
 
 ## Implementación
 ### Descripción de Solución Planteada
 ### Plano de planta (Fisica)
+
+![WhatsApp Image 2025-07-11 at 4 27 26 PM](https://github.com/user-attachments/assets/233fdfba-aec5-47fc-89e7-ff304fa8309f)
+
+Se definen algunas distancias que podrían o no afectar las trayectorias por obstaculos.
+![WhatsApp Image 2025-07-14 at 3 19 22 PM](https://github.com/user-attachments/assets/f9fde4af-e041-43ee-918f-8640ad8ba0e5)
+
+![WhatsApp Image 2025-07-14 at 3 19 21 PM](https://github.com/user-attachments/assets/c9b3d927-4888-4df5-9152-9d19f707165e)
+
 ### Funciones utilizadas
+
 ### Diagrama de Flujo
 ```mermaid
 ---
@@ -60,7 +72,7 @@ flowchart TD
     L4B3 -- No --> L4B2
 ```
 
-### Evidencias fotograficas
+
 
 ### Interfaz
 
