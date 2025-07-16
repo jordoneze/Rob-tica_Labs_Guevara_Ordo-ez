@@ -15,24 +15,32 @@ Con base en los sistemas coordenados planteados en la imagen anterior, se obtien
 |  2|  θ<sub>2</sub> | 0 | L<sub>2</sub> | 0 | -π/2 |
 |  3|  θ<sub>3</sub> | 0 | L<sub>3</sub> | 0 | π/2 |
 |  4|  θ<sub>4</sub> | 0 | L<sub>4</sub> | 0 | π/2 |
+|  5|  θ<sub>5</sub> | L<sub>5</sub> | 0 | 0 | 0 |
 
 ### Longitudes
 
 Las longitudes referidas en la cinemática directa son:
 | Longitud  | [m] |
 | ------------- | ------------- |
-| L<sub>1</sub>  |   |
-| L<sub>2</sub>  |   |
-| L<sub>3</sub>  |   |
-| L<sub>4</sub>  |   |
+| L<sub>1</sub>  | 0.0512  |
+| L<sub>2</sub>  |  0.1095 |
+| L<sub>3</sub>  |  0.1058 |
+| L<sub>4</sub>  |  0.0641 |
+| L<sub>5</sub>  |  0.0455 |
 
 ### Diagrama del robot con software
 Haciendo uso del software Matlab se simula la cinemática directa para hallar un modelo del robot.
-<img width="677" height="538" alt="image" src="https://github.com/user-attachments/assets/38e3ea91-bff2-4aed-9e27-0879f55a18a4" />
+
 
 
 ## Implementación
 ### Descripción de Solución Planteada
+
+
+
+
+
+
 ### Plano de planta (Fisica)
 
 ![WhatsApp Image 2025-07-11 at 4 27 26 PM](https://github.com/user-attachments/assets/233fdfba-aec5-47fc-89e7-ff304fa8309f)
