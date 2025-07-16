@@ -31,6 +31,7 @@ Las longitudes referidas en la cinemática directa son:
 ### Diagrama del robot con software
 Haciendo uso del software Matlab se simula la cinemática directa para hallar un modelo del robot.
 
+<img width="593" height="523" alt="Figure_1" src="https://github.com/user-attachments/assets/f7ed0c0c-0be7-4d69-9442-59412d05c06f" />
 
 
 ## Implementación
